@@ -1,0 +1,3 @@
+def print_list_integer(my_list=[]):
+    for i range(len(my list)):
+    print("{:d}".format (my list[i]))
