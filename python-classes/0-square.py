@@ -4,4 +4,4 @@
 
 class Square:
     """ Empty class - Pass is used """
-    pass 
+    pass
