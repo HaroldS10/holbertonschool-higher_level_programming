@@ -1,16 +1,18 @@
 #!/usr/bin/python3
-"""adds 2 integers"""
+""" add_integer - adds 2 integers and returns an integer: the addition of a and b """
 
 
 def add_integer(a, b=98):
-    """Adds two integers.
-        Arguments:
-        Datatypes
     """
-    if type(a) is not [int, float]:
+    Arguments:
+        Datatypes
+    Raises:
+        TypeError (a): Must be an integer.
+        TypeError (b): Must be an integer.
+    """
+    if (not isinstance(a, int) and not isinstance(a, float)):
         raise TypeError("a must be an integer")
-    if type(b) is not [int, float]:
+    if (not isinstance(b, int) and not isinstance(b, float)):
         raise TypeError("b must be an integer")
-    
-    """Return: sum of the two integers"""
+    """Returns an integer: the addition of a and b"""
     return (int(a) + int(b))
