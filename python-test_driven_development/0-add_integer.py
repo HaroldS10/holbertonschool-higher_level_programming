@@ -11,7 +11,6 @@ def add_integer(a, b=98):
         raise TypeError("a must be an integer")
     if type(b) is not [int, float]:
         raise TypeError("b must be an integer")
-    """
-    Return: sum of the two integers
-    """
+    
+    """Return: sum of the two integers"""
     return (int(a) + int(b))
