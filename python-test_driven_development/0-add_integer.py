@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" add_integer - adds 2 integers and returns an integer: the addition of a and b """
+""" add_integer - adds 2 integers
+    returns an integer: the addition of a and b
+"""
 
 
 def add_integer(a, b=98):
