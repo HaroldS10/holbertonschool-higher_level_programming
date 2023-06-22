@@ -74,4 +74,4 @@ class Rectangle:
                 str = str + "#"
             str = str + "\n"
         str = str[0:-1]
-        return(str)
+        return (str)
